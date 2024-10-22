@@ -1,0 +1,11 @@
+global-styling:
+  version: VERSION
+  js:
+    js/global.js: {}
+    https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js: { type: external, minified: true }
+  css:
+    component:
+      css/style.css: { weight: 100 }
+      css/colors.css: { weight: 99 }
+      https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/idea.min.css: {weight: 98}
+
